@@ -1,5 +1,4 @@
 {
-
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
   "workbench.colorTheme": "Gruvbox Dark Medium",
@@ -17,7 +16,10 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "python.terminal.activateEnvInCurrentTerminal": true,
-  "terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"],
+  "terminal.integrated.shellArgs.windows": [
+    "-ExecutionPolicy",
+    "Bypass"
+  ],
   "editor.codeActionsOnSave": {},
   "[less]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -38,21 +40,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "mssql.connections": [
-    {
-      "server": "DESKTOP-9NO7477",
-      "database": "",
-      "authenticationType": "Integrated",
-      "profileName": "Mareks",
-      "encrypt": "Mandatory",
-      "trustServerCertificate": true,
-      "user": "",
-      "password": "",
-      "connectTimeout": 15,
-      "commandTimeout": 30,
-      "applicationName": "vscode-mssql"
-    }
-  ],
   "debug.javascript.autoAttachFilter": "disabled",
   "java.configuration.runtimes": [
     {
@@ -61,12 +48,6 @@
       "default": true
     }
   ],
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
   "java.gradle.buildServer.openBuildOutput": "neverOpen",
   "php.validate.executablePath": "",
   "extensions.ignoreRecommendations": true,
@@ -74,39 +55,32 @@
   "vim.leader": "<Space>",
   "vim.normalModeKeyBindings": [
     {
-      "before": ["g", "h"],
-      "commands": ["editor.action.showDefinitionPreviewHover"]
+      "before": [ "g", "h" ],
+      "commands": [ "editor.action.showDefinitionPreviewHover" ]
     },
     {
-      "before": ["<leader>", "e"],
-      "commands": ["workbench.view.explorer"]
+      "before": [ "<leader>", "e" ],
+      "commands": [ "workbench.view.explorer" ]
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["<leader>", "f", "r"],
-      "commands": ["find-it-faster.findWithinFiles"]
+      "before": [ "<leader>", "f", "r" ],
+      "commands": [ "find-it-faster.findWithinFiles" ]
     },
     {
-      "before": ["<C-k>"],
-      "after": ["<C-p>"]
+      "before": [ "<C-k>" ],
+      "after": [ "<C-p>" ]
     }
   ],
-  // "vim.insertModeKeyBindings": [
-  //   {
-  //     "before": ["<C-h>"],
-  //     "command": ["cursorRight"]
-  //   }
-  // ],
   "vim.insertModeKeyBindingsNonRecursive": [
     {
-      "before": ["<C-k>"],
-      "after": ["<C-p>"]
+      "before": [ "<C-k>" ],
+      "after": [ "<C-p>" ]
     }
   ],
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(250, 240, 170, 0.5)",
   "vim.highlightedyank.duration": 100,
   "vim.useSystemClipboard": true
-
 }
